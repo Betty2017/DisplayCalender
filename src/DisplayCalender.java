@@ -11,7 +11,7 @@ public class DisplayCalender {
 		System.out.println("Enter the year:");
 		int year = sc.nextInt();
 		
-		int startDayOfMonth = 4;
+		int startDayOfMonth = 1;
         int spaces = startDayOfMonth;
 		String[] months = { "", "January", "February", "March", "April", "May", "June",  "July", "August", "September",
                 "October", "November", "December" }; // leave empty so that we start with months[1] = "January"
